@@ -1,0 +1,5 @@
+Sobre la base de datos:
+
+- Los datos se encuentran en formato .csv, con separación por comas.
+- Los NA en la base han sido nombrados de las siguientes formas: N/A, no registra, No registra y NA.
+- Los datos corresponde a 20 países de Latinoamerica.

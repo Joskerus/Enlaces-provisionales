@@ -1,0 +1,44 @@
+Sobre la base de datos:
+
+- Los datos se encuentran en formato .csv, con separación por comas.
+- Los NA en la base han sido nombrados de las siguientes formas: N/A, no registra, No registra y NA.
+- Los datos corresponde a 20 países de Latinoamerica.
+- La base contiene 24 variables:
+
+	Variable de identificación:
+
+	ID de caso: Número de identificación asignado al paciente
+
+	Variables numéricas:
+
+	Edad: La edad del paciente en años cumplidos.
+	Num_Hos_Rec (Número de hospitalizaciones recientes): La cantidad de veces que el paciente ha sido hospitalizado recientemente.
+	Tensión arterial: La presión arterial del paciente, contiene presión sistólica y diastólica separada por "/".
+	Peso: Peso en kilogramos de la persona en el primer reporte
+	Talla: Talla en centimentro de la persona en el primer reporte
+	
+
+	Variables de fecha:
+
+	Fecha de notificación: La fecha en que se notificó el caso.
+	Fecha de inicio de síntomas: La fecha en que comenzaron los síntomas.
+	Fecha de muerte: La fecha en que falleció el paciente (si está disponible).
+	Fecha de diagnóstico: La fecha en que se realizó el diagnóstico.
+	Fecha de recuperación: La fecha en que el paciente se recuperó (si está disponible).
+	Fecha de nacimiento: La fecha de nacimiento del paciente.
+	Año última actualización: Fecha que se actualizo la base por última vez
+
+
+	Variables categóricas:
+
+	Sexo: El sexo biológico del paciente (masculino (M) o femenino (F)).
+	Tipo de contagio: Cómo se produjo la infección (Comunitaria, Importado, Relacionado)
+	Ubicación del caso: Donde se encuentra el paciente (por ejemplo, Casa, Fallecido, Hospital, Hospital UCI)
+	Estado: El estado actual del paciente (Fallecido, Grave, Leve,  Moderado)
+	Recuperado: Si el paciente esta cursando la enfermedad, ya se recupero o fallecio (Activo, Recuperado, Fallecido)
+	Nombre del país: El país en el que se encuentra el paciente.
+	Síntomas: Intensidad de los síntomas presentados (Sin sintomas, Leve, Moderado, Grave, Critico)
+
+	Variable lógica:
+
+	Vacunado: Si esta vacunado tiene en la casilla verdadero, de lo contrario falso
